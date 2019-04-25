@@ -259,3 +259,12 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+ViGEm
+x64
+Debug
+Release
+desktop.ini
+packages
+Release
+x64
+Debug

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerServerName>10.5.73.190</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>C:\Gamedata\GwenJVS-Debug-x64.exe</RemoteDebuggerCommand>
+    <DeploymentDirectory>C:\Gamedata</DeploymentDirectory>
+    <RemoteDebuggerCommandArguments>-k</RemoteDebuggerCommandArguments>
+    <RemoteDebuggerWorkingDirectory>C:\Gamedata</RemoteDebuggerWorkingDirectory>
+    <AdditionalFiles>D:\Projects\GwenJVS\x64\Debug\GwenJVS-Debug-x64.pdb</AdditionalFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerServerName>10.5.73.190</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerCommand>C:\Gamedata\GwenJVS-Debug-x86.exe</RemoteDebuggerCommand>
+    <DeploymentDirectory>C:\Gamedata</DeploymentDirectory>
+    <RemoteDebuggerCommandArguments>-k</RemoteDebuggerCommandArguments>
+    <RemoteDebuggerWorkingDirectory>C:\Gamedata</RemoteDebuggerWorkingDirectory>
+    <AdditionalFiles>D:\Projects\GwenJVS\Debug\GwenJVS-Debug-x86.pdb</AdditionalFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>C:\Gamedata\GwenJVS-x86.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>C:\Gamedata</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <DeploymentDirectory>C:\Gamedata</DeploymentDirectory>
+    <RemoteDebuggerServerName>10.5.73.190</RemoteDebuggerServerName>
+    <RemoteDebuggerCommandArguments>-k</RemoteDebuggerCommandArguments>
+    <AdditionalFiles>D:\Projects\GwenJVS\Release\GwenJVS-x86.pdb</AdditionalFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>C:\Gamedata\GwenJVS-x64.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>C:\Gamedata</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>10.5.73.190</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <DeploymentDirectory>C:\Gamedata</DeploymentDirectory>
+    <RemoteDebuggerCommandArguments>-k</RemoteDebuggerCommandArguments>
+    <AdditionalFiles>D:\Projects\GwenJVS\x64\Release\GwenJVS-x64.pdb</AdditionalFiles>
+  </PropertyGroup>
+</Project>
