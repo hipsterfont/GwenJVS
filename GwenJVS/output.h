@@ -13,13 +13,8 @@
 #include <dinput.h>
 #include <SDKDDKVer.h>
 
-#include "ViGEm\km\BusShared.h"
 #include "ViGEm\Common.h"
 #include "ViGEm\Client.h"
-
-// #include "D:\Projects\ViGEmBus-old\include\ViGEmBusShared.h"
-// #include "D:\Projects\ViGEmBus-old\include\ViGEmCommon.h"
-// #include "D:\Projects\ViGEmBus-old\include\ViGEmClient.h"
 
 #include "keymap.h"
 #include "config.h"

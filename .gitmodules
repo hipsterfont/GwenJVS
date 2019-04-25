@@ -1,0 +1,6 @@
+[submodule "lib/ViGEmBus"]
+	path = lib/ViGEmBus
+	url = https://github.com/ViGEm/ViGEmBus.git
+[submodule "lib/ViGEmClient"]
+	path = lib/ViGEmClient
+	url = https://github.com/ViGEm/ViGEmClient.git
