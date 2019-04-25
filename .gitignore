@@ -265,6 +265,6 @@ Debug
 Release
 desktop.ini
 packages
-Release
-x64
-Debug
+/OLD
+/GwenJVS-x64.exe
+/GwenJVS-x64-4P.exe
